@@ -1,0 +1,37 @@
+
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0;}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: hsla(0,0%,100%,.8);
+    background-color:#171941;
+    font-family: Poppins,sans-serif;
+    /* background-image: linear-gradient(to right, rgb(0, 0, 0), 10%,  rgba(0,0,0,0)); */
+    
+}
+
+
+
+.main {
+	width: 90%;
+	max-width: 69em;
+	margin: 0 auto;
+}
+
+#canvas{
+  display:flex;
+  margin:auto;
+}
